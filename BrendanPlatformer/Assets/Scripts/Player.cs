@@ -15,6 +15,11 @@ public class Player : MonoBehaviour
     public bool walking; // help with transitioning to walking animation
     public bool jumping; // help with transitioning to jump animation
     public bool climbing; // help with climbing ladders
+
+    public int coins; // the coins we collect in a level
+    public int health; // how much health we got
+
+    public Transform Checkpoint; // respawn point
     // Start is called before the first frame update
     void Start()
     {
@@ -74,6 +79,19 @@ public class Player : MonoBehaviour
         {
             climbing = true;
             rb.gravityScale = 0;
+        }
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            coins++; // increase coins by 1
+            Destroy(collision.gameObject); // destroy the coin
+        }
+        if (collision.gameObject.CompareTag("Head"))
+        {
+            Destroy(collision.transform.parent.gameObject); // destroying the spider from the head hitbox
+        }
+        if(collision.gameObject.name == "Deathplane")
+        {
+            transform.position = Checkpoint.position; // when we collide with the deathplane, respawn player at last checkpoint
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
