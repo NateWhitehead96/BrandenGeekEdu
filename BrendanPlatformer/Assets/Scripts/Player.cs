@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     public int health; // how much health we got
 
     public Transform Checkpoint; // respawn point
+
+    public bool inWater; // to know if we're swimming or not
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (inWater == true)
+        {
+            jumping = false; // be able to infinite jump
+        }
         if (Input.GetKey(KeyCode.D)) // when we hit the D key
         {
             transform.position = new Vector3(transform.position.x + moveSpeed * Time.deltaTime, transform.position.y); // move to the right
@@ -71,6 +77,15 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         jumping = false; // when we collide with anything, we're on the "ground"
+        if(collision.gameObject.name == "Hazard")
+        {
+            health--; // decrease health by 1
+            if(health < 0)
+            {
+                // typically we'd show game over or die
+                health = 0; // for now make sure health cant go below 0
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -92,6 +107,15 @@ public class Player : MonoBehaviour
         if(collision.gameObject.name == "Deathplane")
         {
             transform.position = Checkpoint.position; // when we collide with the deathplane, respawn player at last checkpoint
+        }
+        if(collision.gameObject.name == "Heart")
+        {
+            health++; // increase health by 1
+            if(health > 3) // if we already have full health, just set health to 3
+            {
+                health = 3;
+            }
+            Destroy(collision.gameObject); // destroy the heart after we touch it
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
