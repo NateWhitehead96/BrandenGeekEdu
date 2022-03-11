@@ -57,6 +57,7 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && jumping == false) // when we hit the spacebar and we aren't currently jumping
         {
+            SoundManager.instance.jumpSound.Play();
             rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse); // jumping into the air
             jumping = true;
         }
@@ -64,21 +65,42 @@ public class Player : MonoBehaviour
         animator.SetBool("isWalking", walking); // this controls the walking animation
         animator.SetBool("isJumping", jumping); // this controls the jumping animation
 
+        // --------- climbing inputs ------------- //
+
         if (Input.GetKey(KeyCode.W) && climbing == true) // climbing up the ladder
         {
             transform.position = new Vector3(transform.position.x, transform.position.y + moveSpeed * Time.deltaTime);
+            animator.SetBool("isClimbing", true);
+        }
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            animator.SetBool("isClimbing", false);
         }
         if(Input.GetKey(KeyCode.S) && climbing == true)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y - moveSpeed * Time.deltaTime);
+            animator.SetBool("isClimbing", true);
         }
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            animator.SetBool("isClimbing", false);
+        }
+    }
+
+    IEnumerator PlayerHurt()
+    {
+        animator.SetBool("isHurt", true);
+        yield return new WaitForSeconds(1);
+        animator.SetBool("isHurt", false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         jumping = false; // when we collide with anything, we're on the "ground"
-        if(collision.gameObject.name == "Hazard")
+        if(collision.gameObject.tag == "Hazard")
         {
+            SoundManager.instance.hurtSound.Play(); // play the hurt sound
+            StartCoroutine(PlayerHurt()); // this will play our hurt animation
             health--; // decrease health by 1
             if(health < 0)
             {
@@ -87,6 +109,7 @@ public class Player : MonoBehaviour
             }
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -97,6 +120,7 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Coin"))
         {
+            SoundManager.instance.pickupSound.Play(); // this will play the pickup sound
             coins++; // increase coins by 1
             Destroy(collision.gameObject); // destroy the coin
         }

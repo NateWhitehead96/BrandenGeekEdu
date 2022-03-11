@@ -33,9 +33,9 @@ public class GroundEnemy : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "Player")
-        {
-            collision.gameObject.GetComponent<Player>().health--; // when enemy collides with player, deal 1 damage
-        }
+        //if(collision.gameObject.name == "Player")
+        //{
+        //    collision.gameObject.GetComponent<Player>().health--; // when enemy collides with player, deal 1 damage
+        //}
     }
 }
