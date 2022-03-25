@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     public bool jumping; // help with transitioning to jump animation
     public bool climbing; // help with climbing ladders
 
-    public int coins; // the coins we collect in a level
+    //public int coins; // the coins we collect in a level
     public int health; // how much health we got
 
     public Transform Checkpoint; // respawn point
@@ -60,6 +60,7 @@ public class Player : MonoBehaviour
             SoundManager.instance.jumpSound.Play();
             rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse); // jumping into the air
             jumping = true;
+            transform.parent = null;
         }
 
         animator.SetBool("isWalking", walking); // this controls the walking animation
@@ -121,7 +122,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Coin"))
         {
             SoundManager.instance.pickupSound.Play(); // this will play the pickup sound
-            coins++; // increase coins by 1
+            GameManager.instance.Coins++; // increase coins by 1
             Destroy(collision.gameObject); // destroy the coin
         }
         if (collision.gameObject.CompareTag("Head"))

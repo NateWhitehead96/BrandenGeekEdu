@@ -23,7 +23,7 @@ public class HUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CoinText.text = player.coins.ToString();
+        CoinText.text = GameManager.instance.Coins.ToString();
 
         if(player.health == 3) // at full health
         {
