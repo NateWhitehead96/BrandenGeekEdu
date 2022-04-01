@@ -14,15 +14,28 @@ public class HUD : MonoBehaviour
     public Sprite EmptyHeart;
 
     public Player player; // access to player to know coin amount and health amount
+    public GameObject Map; // to show and hide level map
     // Start is called before the first frame update
     void Start()
     {
-        
+        Map.SetActive(false); // hide map on game start
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if (Map.activeInHierarchy) // is the map on screen
+            {
+                Map.SetActive(false); // if so hide
+            }
+            else // if not
+            {
+                Map.SetActive(true); // show
+            }
+        }
+
         CoinText.text = GameManager.instance.Coins.ToString();
 
         if(player.health == 3) // at full health

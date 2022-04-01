@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
     public Transform Checkpoint; // respawn point
 
     public bool inWater; // to know if we're swimming or not
+
+    public float fallDamageTimer; // when we stop touching ground start this counter, if it hits over 2 seconds deal damage to player
     // Start is called before the first frame update
     void Start()
     {
@@ -86,6 +88,13 @@ public class Player : MonoBehaviour
         {
             animator.SetBool("isClimbing", false);
         }
+
+        // ----------- fall damage stuff ----------------- //
+        if(jumping == true && climbing == false)
+        {
+            fallDamageTimer += Time.deltaTime; // counting up the time we're falling
+        }
+
     }
 
     IEnumerator PlayerHurt()
@@ -98,6 +107,19 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         jumping = false; // when we collide with anything, we're on the "ground"
+        if (fallDamageTimer >= 2)
+        {
+            StartCoroutine(PlayerHurt()); // this will play our hurt animation
+            health--; // decrease health by 1
+            if (health < 0)
+            {
+                // typically we'd show game over or die
+                health = 0; // for now make sure health cant go below 0
+            }
+            fallDamageTimer = 0;
+        }
+        else
+            fallDamageTimer = 0;
         if(collision.gameObject.tag == "Hazard")
         {
             SoundManager.instance.hurtSound.Play(); // play the hurt sound
@@ -110,7 +132,10 @@ public class Player : MonoBehaviour
             }
         }
     }
-
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        jumping = true;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
