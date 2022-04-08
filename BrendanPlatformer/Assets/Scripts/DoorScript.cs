@@ -14,14 +14,14 @@ public class DoorScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(GameManager.instance.LevelsBeaten >= LevelToLoad - 1) // if we've beaten enough levels
-        {
-            unlocked = true; 
-        }
-        if(unlocked == false)
-        {
-            gameObject.SetActive(false); // hide the gameobject from view
-        }
+        //if(GameManager.instance.LevelsBeaten >= LevelToLoad - 1) // if we've beaten enough levels
+        //{
+        //    unlocked = true; 
+        //}
+        //if(unlocked == false)
+        //{
+        //    gameObject.SetActive(false); // hide the gameobject from view
+        //}
     }
 
     // Update is called once per frame
@@ -37,6 +37,7 @@ public class DoorScript : MonoBehaviour
     IEnumerator FadeToNextLevel() // play the fade animation
     {
         fadeCanvasAnimator.SetBool("Fade", true); // we're setting it to fade
+        GameManager.instance.SaveGame(); // save coin value
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(LevelToLoad); // load the next scene
     }
