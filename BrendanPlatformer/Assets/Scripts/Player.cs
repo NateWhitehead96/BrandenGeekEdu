@@ -24,10 +24,12 @@ public class Player : MonoBehaviour
     public bool inWater; // to know if we're swimming or not
 
     public float fallDamageTimer; // when we stop touching ground start this counter, if it hits over 2 seconds deal damage to player
+    public GameObject PauseCanvas;
     // Start is called before the first frame update
     void Start()
     {
-        
+        PauseCanvas.SetActive(false);
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -94,7 +96,17 @@ public class Player : MonoBehaviour
         {
             fallDamageTimer += Time.deltaTime; // counting up the time we're falling
         }
-
+        // pause inputs
+        if(Input.GetKeyDown(KeyCode.P) && PauseCanvas.activeInHierarchy)
+        {
+            PauseCanvas.SetActive(false);
+            Time.timeScale = 1;
+        }
+        else if (Input.GetKeyDown(KeyCode.P) && !PauseCanvas.activeInHierarchy)
+        {
+            PauseCanvas.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 
     IEnumerator PlayerHurt()
