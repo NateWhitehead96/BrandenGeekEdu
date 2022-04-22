@@ -1,262 +1,250 @@
 fileFormatVersion: 2
-guid: e17eda1c212c1b04e9536894471edba9
+guid: 7c3919b565a0e314986ab446351ce1a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3675717388011300749
-    second: platformPack_tilesheet_0
+      213: -6096173158352679007
+    second: FlappyBirdTileMap_0
   - first:
-      213: 1497654537045197512
-    second: platformPack_tilesheet_1
+      213: 1430084745850620546
+    second: FlappyBirdTileMap_1
   - first:
-      213: -2971560487978958717
-    second: platformPack_tilesheet_2
+      213: -1543094512188780656
+    second: FlappyBirdTileMap_2
   - first:
-      213: 1194775552194177182
-    second: platformPack_tilesheet_3
+      213: -8840789501185518131
+    second: FlappyBirdTileMap_3
   - first:
-      213: -67260320283365526
-    second: platformPack_tilesheet_4
+      213: 1126491494586535217
+    second: FlappyBirdTileMap_4
   - first:
-      213: -2297678339837889277
-    second: platformPack_tilesheet_5
+      213: 686808269036690900
+    second: FlappyBirdTileMap_5
   - first:
-      213: -2669738015307646140
-    second: platformPack_tilesheet_6
+      213: -3370330461257377564
+    second: FlappyBirdTileMap_6
   - first:
-      213: -5343778567584597206
-    second: platformPack_tilesheet_7
+      213: -8788787726862466057
+    second: FlappyBirdTileMap_7
   - first:
-      213: 198327761963240103
-    second: platformPack_tilesheet_8
+      213: -6207236468821702247
+    second: FlappyBirdTileMap_8
   - first:
-      213: 7603596860735191224
-    second: platformPack_tilesheet_9
+      213: -649199298978363035
+    second: FlappyBirdTileMap_9
   - first:
-      213: -2791041982528332784
-    second: platformPack_tilesheet_10
+      213: 6416064864908801033
+    second: FlappyBirdTileMap_10
   - first:
-      213: -4917246509589660587
-    second: platformPack_tilesheet_11
+      213: -1543758824530968691
+    second: FlappyBirdTileMap_11
   - first:
-      213: -6343519296654054873
-    second: platformPack_tilesheet_12
+      213: 1447967192740666015
+    second: FlappyBirdTileMap_12
   - first:
-      213: 5802382940043802597
-    second: platformPack_tilesheet_13
+      213: 7772822308143077500
+    second: FlappyBirdTileMap_13
   - first:
-      213: -1680656839057344312
-    second: platformPack_tilesheet_14
+      213: 2774738144669593471
+    second: FlappyBirdTileMap_14
   - first:
-      213: -8718846420707220360
-    second: platformPack_tilesheet_15
+      213: -6993935424910074653
+    second: FlappyBirdTileMap_15
   - first:
-      213: -1020003207166317292
-    second: platformPack_tilesheet_16
+      213: 1317157949406249280
+    second: FlappyBirdTileMap_16
   - first:
-      213: 2498972166423581701
-    second: platformPack_tilesheet_17
+      213: 1302218055560676107
+    second: FlappyBirdTileMap_17
   - first:
-      213: -9019370586224916440
-    second: platformPack_tilesheet_18
+      213: 7703009211029548304
+    second: FlappyBirdTileMap_18
   - first:
-      213: 4582258180007055615
-    second: platformPack_tilesheet_19
+      213: 1332959297933510877
+    second: FlappyBirdTileMap_19
   - first:
-      213: -3053032850354778017
-    second: platformPack_tilesheet_20
+      213: -8970311640866570270
+    second: FlappyBirdTileMap_20
   - first:
-      213: 2000318658764212219
-    second: platformPack_tilesheet_21
+      213: 4164547662233573220
+    second: FlappyBirdTileMap_21
   - first:
-      213: -7131194573353445407
-    second: platformPack_tilesheet_22
+      213: -8443005113801229372
+    second: FlappyBirdTileMap_22
   - first:
-      213: -8671202371429318906
-    second: platformPack_tilesheet_23
+      213: 6960828140084841231
+    second: FlappyBirdTileMap_23
   - first:
-      213: 9118974377659613285
-    second: platformPack_tilesheet_24
+      213: -5942507082737806525
+    second: FlappyBirdTileMap_24
   - first:
-      213: 7168705448075581056
-    second: platformPack_tilesheet_25
+      213: 3204740619284116785
+    second: FlappyBirdTileMap_25
   - first:
-      213: 3108537083571099360
-    second: platformPack_tilesheet_26
+      213: 7580788567795222337
+    second: FlappyBirdTileMap_26
   - first:
-      213: 5359956806324251708
-    second: platformPack_tilesheet_27
+      213: -6272597432115975291
+    second: FlappyBirdTileMap_27
   - first:
-      213: -2102368444492911589
-    second: platformPack_tilesheet_28
+      213: 8902697515198989323
+    second: FlappyBirdTileMap_28
   - first:
-      213: 5613609842964036939
-    second: platformPack_tilesheet_29
+      213: 3470510688729523662
+    second: FlappyBirdTileMap_29
   - first:
-      213: 3139700333482706574
-    second: platformPack_tilesheet_30
+      213: 7010031700063165755
+    second: FlappyBirdTileMap_30
   - first:
-      213: 5515580552219433423
-    second: platformPack_tilesheet_31
+      213: -3512032454479262370
+    second: FlappyBirdTileMap_31
   - first:
-      213: -8447794606436959138
-    second: platformPack_tilesheet_32
+      213: -1069633647404897371
+    second: FlappyBirdTileMap_32
   - first:
-      213: 4616144251219174747
-    second: platformPack_tilesheet_33
+      213: -5191558054670487420
+    second: FlappyBirdTileMap_33
   - first:
-      213: -6793467927654196686
-    second: platformPack_tilesheet_34
+      213: -4210006048685308588
+    second: FlappyBirdTileMap_34
   - first:
-      213: -3843204344904844177
-    second: platformPack_tilesheet_35
+      213: 4731235714149061459
+    second: FlappyBirdTileMap_35
   - first:
-      213: -6281372894776990157
-    second: platformPack_tilesheet_36
+      213: 4414805835639553163
+    second: FlappyBirdTileMap_36
   - first:
-      213: 7803244411431362681
-    second: platformPack_tilesheet_37
+      213: 4163630656895477658
+    second: FlappyBirdTileMap_37
   - first:
-      213: 3575207316984784501
-    second: platformPack_tilesheet_38
+      213: -7968960109080279936
+    second: FlappyBirdTileMap_38
   - first:
-      213: -4265210035970821296
-    second: platformPack_tilesheet_39
+      213: 2291852531950513747
+    second: FlappyBirdTileMap_39
   - first:
-      213: 7793541705929876910
-    second: platformPack_tilesheet_40
+      213: 5895399217564918903
+    second: FlappyBirdTileMap_40
   - first:
-      213: 2127383828125186975
-    second: platformPack_tilesheet_41
+      213: 3120183713287340895
+    second: FlappyBirdTileMap_41
   - first:
-      213: -7121774993602184644
-    second: platformPack_tilesheet_42
+      213: -4665754599566926326
+    second: FlappyBirdTileMap_42
   - first:
-      213: 9073414659263081520
-    second: platformPack_tilesheet_43
+      213: 2213676278057711812
+    second: FlappyBirdTileMap_43
   - first:
-      213: 8054355832321402330
-    second: platformPack_tilesheet_44
+      213: 3473259882395534278
+    second: FlappyBirdTileMap_44
   - first:
-      213: 7604668463972655609
-    second: platformPack_tilesheet_45
+      213: -300831786154191046
+    second: FlappyBirdTileMap_45
   - first:
-      213: -7365346576805866900
-    second: platformPack_tilesheet_46
+      213: 5229220221439756919
+    second: FlappyBirdTileMap_46
   - first:
-      213: -6625809044397681302
-    second: platformPack_tilesheet_47
+      213: 4180679310311307146
+    second: FlappyBirdTileMap_47
   - first:
-      213: -3907501461650199765
-    second: platformPack_tilesheet_48
+      213: 5284539695158943115
+    second: FlappyBirdTileMap_48
   - first:
-      213: 4869644437843835221
-    second: platformPack_tilesheet_49
+      213: 1642551612699053817
+    second: FlappyBirdTileMap_49
   - first:
-      213: 8520943869987402425
-    second: platformPack_tilesheet_50
+      213: 9059505980918953630
+    second: FlappyBirdTileMap_50
   - first:
-      213: -7582207473722716598
-    second: platformPack_tilesheet_51
+      213: 7629701586100938537
+    second: FlappyBirdTileMap_51
   - first:
-      213: 113466129880461321
-    second: platformPack_tilesheet_52
+      213: 4716841339649940970
+    second: FlappyBirdTileMap_52
   - first:
-      213: 6382302790431110032
-    second: platformPack_tilesheet_53
+      213: 476439594367312093
+    second: FlappyBirdTileMap_53
   - first:
-      213: -5701913029375915191
-    second: platformPack_tilesheet_54
+      213: -371936201148314539
+    second: FlappyBirdTileMap_54
   - first:
-      213: -2438843658756123571
-    second: platformPack_tilesheet_55
+      213: -2924962326233353956
+    second: FlappyBirdTileMap_55
   - first:
-      213: 4418268933478749330
-    second: platformPack_tilesheet_56
+      213: 4008631246867209081
+    second: FlappyBirdTileMap_56
   - first:
-      213: -3339002421412037762
-    second: platformPack_tilesheet_57
+      213: -5381067228494804844
+    second: FlappyBirdTileMap_57
   - first:
-      213: 2330615992907441848
-    second: platformPack_tilesheet_58
+      213: -1302252226880004050
+    second: FlappyBirdTileMap_58
   - first:
-      213: 6539738197558432422
-    second: platformPack_tilesheet_59
+      213: 3251951139366444718
+    second: FlappyBirdTileMap_59
   - first:
-      213: 5543355331481416411
-    second: platformPack_tilesheet_60
+      213: -161759743718932157
+    second: FlappyBirdTileMap_60
   - first:
-      213: -329807682860033722
-    second: platformPack_tilesheet_61
+      213: 658360776062360974
+    second: FlappyBirdTileMap_61
   - first:
-      213: 736037565102701571
-    second: platformPack_tilesheet_62
+      213: -6104532690503745382
+    second: FlappyBirdTileMap_62
   - first:
-      213: 7407790550092901962
-    second: platformPack_tilesheet_63
+      213: 5752788056546172428
+    second: FlappyBirdTileMap_63
   - first:
-      213: 7571522258589489921
-    second: platformPack_tilesheet_64
+      213: 5369706004374678353
+    second: FlappyBirdTileMap_64
   - first:
-      213: 365240933877879282
-    second: platformPack_tilesheet_65
+      213: -344059409638429400
+    second: FlappyBirdTileMap_65
   - first:
-      213: 6484311554862978555
-    second: platformPack_tilesheet_66
+      213: 8577232528178247938
+    second: FlappyBirdTileMap_66
   - first:
-      213: -3015883018749221715
-    second: platformPack_tilesheet_67
+      213: 5600228245503796842
+    second: FlappyBirdTileMap_67
   - first:
-      213: -8233407340692220617
-    second: platformPack_tilesheet_68
+      213: 4228358483969585949
+    second: FlappyBirdTileMap_68
   - first:
-      213: 4131542717008771627
-    second: platformPack_tilesheet_69
+      213: 7630457873052876479
+    second: FlappyBirdTileMap_69
   - first:
-      213: -8120040315211294159
-    second: platformPack_tilesheet_70
+      213: 1938772561237887208
+    second: FlappyBirdTileMap_70
   - first:
-      213: -8077744885297897661
-    second: platformPack_tilesheet_71
+      213: 1001168954221829677
+    second: FlappyBirdTileMap_71
   - first:
-      213: 3018018900400578528
-    second: platformPack_tilesheet_72
+      213: 4083827155630796565
+    second: FlappyBirdTileMap_72
   - first:
-      213: -3685791462794059503
-    second: platformPack_tilesheet_73
+      213: -579334387403912427
+    second: FlappyBirdTileMap_73
   - first:
-      213: -5673278798345599059
-    second: platformPack_tilesheet_74
+      213: 1786592125969519901
+    second: FlappyBirdTileMap_74
   - first:
-      213: -3564777485283095739
-    second: platformPack_tilesheet_75
+      213: -2988065882810800987
+    second: FlappyBirdTileMap_75
   - first:
-      213: -5385800999692259534
-    second: platformPack_tilesheet_76
+      213: 8813017573882944095
+    second: FlappyBirdTileMap_76
   - first:
-      213: -1364626516741762822
-    second: platformPack_tilesheet_77
+      213: -3487949002429661989
+    second: FlappyBirdTileMap_77
   - first:
-      213: -5652490260500242196
-    second: platformPack_tilesheet_78
+      213: 8769802856162232836
+    second: FlappyBirdTileMap_78
   - first:
-      213: -3863270000433743358
-    second: platformPack_tilesheet_79
+      213: -4830762282349217181
+    second: FlappyBirdTileMap_79
   - first:
-      213: -2652159029634533251
-    second: platformPack_tilesheet_80
-  - first:
-      213: -3171826077147836033
-    second: platformPack_tilesheet_81
-  - first:
-      213: -9169103410807245697
-    second: platformPack_tilesheet_82
-  - first:
-      213: -8159112258552732388
-    second: platformPack_tilesheet_83
-  - first:
-      213: 7152219933858350172
-    second: platformPack_tilesheet_84
+      213: 907644903250961031
+    second: FlappyBirdTileMap_80
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -301,7 +289,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -323,7 +311,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -335,7 +323,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -347,7 +335,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -359,7 +347,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -370,1786 +358,1702 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: platformPack_tilesheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3781cd8a28a3dfcc0800000000000000
-      internalID: -3675717388011300749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c2c4d4dddcb8c410800000000000000
-      internalID: 1497654537045197512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3808d6dea75e2c6d0800000000000000
-      internalID: -2971560487978958717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e98ead6d802b49010800000000000000
-      internalID: 1194775552194177182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6fe706581b011ff0800000000000000
-      internalID: -67260320283365526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3057ad939b10d10e0800000000000000
-      internalID: -2297678339837889277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44b3b328b6f23fad0800000000000000
-      internalID: -2669738015307646140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2b36c094b517d5b0800000000000000
-      internalID: -5343778567584597206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_8
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7aacae87c0a90c200800000000000000
-      internalID: 198327761963240103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_9
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b8756b2f07658960800000000000000
-      internalID: 7603596860735191224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_10
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01c523eba1a3449d0800000000000000
-      internalID: -2791041982528332784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_11
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55cf0ea2a5e62cbb0800000000000000
-      internalID: -4917246509589660587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_12
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72a69112fca47f7a0800000000000000
-      internalID: -6343519296654054873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_13
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e7f818aa84368050800000000000000
-      internalID: 5802382940043802597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_14
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c8f7a6628b1da8e0800000000000000
-      internalID: -1680656839057344312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_15
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8746f82ff5f600780800000000000000
-      internalID: -8718846420707220360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_16
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41da71fbc7838d1f0800000000000000
-      internalID: -1020003207166317292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_17
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 504144bf1f12ea220800000000000000
-      internalID: 2498972166423581701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_18
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 828057e0d32c4d280800000000000000
-      internalID: -9019370586224916440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_19
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff0d2707983779f30800000000000000
-      internalID: 4582258180007055615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_20
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f50510b5cc271a5d0800000000000000
-      internalID: -3053032850354778017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_21
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf70a35d83f82cb10800000000000000
-      internalID: 2000318658764212219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_22
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e713177158e80d90800000000000000
-      internalID: -7131194573353445407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_23
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60f3e6b9263b9a780800000000000000
-      internalID: -8671202371429318906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_24
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5604a40d1ea1d8e70800000000000000
-      internalID: 9118974377659613285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_25
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 086d3f3af9b5c7360800000000000000
-      internalID: 7168705448075581056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_26
+      name: FlappyBirdTileMap_0
       rect:
         serializedVersion: 2
         x: 0
         y: 256
-        width: 64
-        height: 64
+        width: 144
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e6526df10eb32b20800000000000000
-      internalID: 3108537083571099360
+      spriteID: 1af0e17bfca066ba0800000000000000
+      internalID: -6096173158352679007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_27
+      name: FlappyBirdTileMap_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 146
         y: 256
-        width: 64
-        height: 64
+        width: 144
+        height: 256
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3ce46c2154626a40800000000000000
-      internalID: 5359956806324251708
+      spriteID: 28a812bdf7ea8d310800000000000000
+      internalID: 1430084745850620546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_28
+      name: FlappyBirdTileMap_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64
-        height: 64
+        x: 292
+        y: 456
+        width: 168
+        height: 56
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1c620fd903e2d2e0800000000000000
-      internalID: -2102368444492911589
+      spriteID: 09f022287b3d59ae0800000000000000
+      internalID: -1543094512188780656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_29
+      name: FlappyBirdTileMap_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64
-        height: 64
+        x: 465
+        y: 493
+        width: 31
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4df185f86c87ed40800000000000000
-      internalID: 5613609842964036939
+      spriteID: dc595d70ac43f4580800000000000000
+      internalID: -8840789501185518131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_30
+      name: FlappyBirdTileMap_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 64
-        height: 64
+        x: 502
+        y: 502
+        width: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e86896681d4729b20800000000000000
-      internalID: 3139700333482706574
+      spriteID: 13d4451cb0a12af00800000000000000
+      internalID: 1126491494586535217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_31
+      name: FlappyBirdTileMap_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 490
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd9bb85b78088900800000000000000
+      internalID: 686808269036690900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 472
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e853116d4e2a31d0800000000000000
+      internalID: -3370330461257377564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_7
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 476
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3cc0e9024f70680800000000000000
+      internalID: -8788787726862466057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_8
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 456
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9994807a1577bd9a0800000000000000
+      internalID: -6207236468821702247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_9
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 460
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56946fb5da49df6f0800000000000000
+      internalID: -649199298978363035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_10
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 432
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f0c830017a0950800000000000000
+      internalID: 6416064864908801033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 428
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ff4fc3787739ae0800000000000000
+      internalID: -1543758824530968691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_12
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 432
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a1ab97d76381410800000000000000
+      internalID: 1447967192740666015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_13
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 432
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78991305bc9edb60800000000000000
+      internalID: 7772822308143077500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_14
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 434
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fe1c134a9d18620800000000000000
+      internalID: 2774738144669593471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_15
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 423
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecd63859cc80fe90800000000000000
+      internalID: -6993935424910074653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_16
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 409
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04101772d2c774210800000000000000
+      internalID: 1317157949406249280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 397
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b034bcd0c68621210800000000000000
+      internalID: 1302218055560676107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_18
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 415
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d6afca01696ea60800000000000000
+      internalID: 7703009211029548304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 415
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8816d4b6f9f7210800000000000000
+      internalID: 1332959297933510877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_20
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 415
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efb891e61d038380800000000000000
+      internalID: -8970311640866570270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_21
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 415
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4679d99b8027bc930800000000000000
+      internalID: 4164547662233573220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_22
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 415
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb321bf49b64da80800000000000000
+      internalID: -8443005113801229372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_23
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 415
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bcc483054d99060800000000000000
+      internalID: 6960828140084841231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_24
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 415
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3439b220b49f78da0800000000000000
+      internalID: -5942507082737806525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_25
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 405
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135f1b12d96897c20800000000000000
+      internalID: 3204740619284116785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_26
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 395
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147c6c4a90f543960800000000000000
+      internalID: 7580788567795222337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_27
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 379
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b23bf7ed143f8a0800000000000000
+      internalID: -6272597432115975291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_28
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 372
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b044038b83cbc8b70800000000000000
+      internalID: 8902697515198989323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_29
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 379
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec56be6751bb92030800000000000000
+      internalID: 3470510688729523662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_30
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 365
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d1e72c0b2a84160800000000000000
+      internalID: 7010031700063165755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_31
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 365
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dce171711c24fc0800000000000000
+      internalID: -3512032454479262370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_32
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 356
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab20a66dd5e721f0800000000000000
+      internalID: -1069633647404897371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_33
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 356
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4803c809471e3f7b0800000000000000
+      internalID: -5191558054670487420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_34
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 334
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455cdd5edcd0395c0800000000000000
+      internalID: -4210006048685308588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_35
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 334
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3531f7a90d9b8a140800000000000000
+      internalID: 4731235714149061459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_36
       rect:
         serializedVersion: 2
         x: 320
-        y: 256
-        width: 64
-        height: 64
+        y: 334
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc997191a474b8c40800000000000000
-      internalID: 5515580552219433423
+      spriteID: b8cfd91548a844d30800000000000000
+      internalID: 4414805835639553163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_32
+      name: FlappyBirdTileMap_37
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
-        width: 64
-        height: 64
+        x: 334
+        y: 334
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5c3dd3509763ca80800000000000000
-      internalID: -8447794606436959138
+      spriteID: a976e28c50038c930800000000000000
+      internalID: 4163630656895477658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_33
+      name: FlappyBirdTileMap_38
       rect:
         serializedVersion: 2
-        x: 448
-        y: 256
-        width: 64
-        height: 64
+        x: 292
+        y: 310
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5561e53db6df0040800000000000000
-      internalID: 4616144251219174747
+      spriteID: 084030d8001986190800000000000000
+      internalID: -7968960109080279936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_34
+      name: FlappyBirdTileMap_39
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 64
-        height: 64
+        x: 306
+        y: 310
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23a9923c9e0c8b1a0800000000000000
-      internalID: -6793467927654196686
+      spriteID: 35e6d7c2cbb4ecf10800000000000000
+      internalID: 2291852531950513747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_35
+      name: FlappyBirdTileMap_40
       rect:
         serializedVersion: 2
-        x: 576
-        y: 256
-        width: 64
-        height: 64
+        x: 320
+        y: 310
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c75bea2023aaac0800000000000000
-      internalID: -3843204344904844177
+      spriteID: 774a21c6a5aa0d150800000000000000
+      internalID: 5895399217564918903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_36
+      name: FlappyBirdTileMap_41
       rect:
         serializedVersion: 2
-        x: 640
-        y: 256
-        width: 64
-        height: 64
+        x: 334
+        y: 310
+        width: 12
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 336ec01e1a414d8a0800000000000000
-      internalID: -6281372894776990157
+      spriteID: f5383784e8e1d4b20800000000000000
+      internalID: 3120183713287340895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_37
+      name: FlappyBirdTileMap_42
       rect:
         serializedVersion: 2
-        x: 704
-        y: 256
-        width: 64
-        height: 64
+        x: 292
+        y: 290
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9702be6e271ba4c60800000000000000
-      internalID: 7803244411431362681
+      spriteID: a0e1ba379e8ef3fb0800000000000000
+      internalID: -4665754599566926326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_38
+      name: FlappyBirdTileMap_43
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 296
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8b659a8de88be10800000000000000
+      internalID: 2213676278057711812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c30dcef57f733030800000000000000
+      internalID: 3473259882395534278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_45
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 260
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a371229951b33dbf0800000000000000
+      internalID: -300831786154191046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_46
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 196
+        width: 113
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ac437f51ce19840800000000000000
+      internalID: 5229220221439756919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_47
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 232
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a873eeabea1c40a30800000000000000
+      internalID: 4180679310311307146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_48
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 208
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d5663aad4765940800000000000000
+      internalID: 5284539695158943115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_49
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 192
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe0c283df38bc610800000000000000
+      internalID: 1642551612699053817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_50
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 196
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e967339b0b4d9bd70800000000000000
+      internalID: 9059505980918953630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlappyBirdTileMap_51
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 64
-        height: 64
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 576614fcc10bd9130800000000000000
-      internalID: 3575207316984784501
+      spriteID: 927e7cd2b2522e960800000000000000
+      internalID: 7629701586100938537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_39
+      name: FlappyBirdTileMap_52
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
+        x: 28
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0533781021eeec4c0800000000000000
-      internalID: -4265210035970821296
+      spriteID: aed56bf1536957140800000000000000
+      internalID: 4716841339649940970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_40
+      name: FlappyBirdTileMap_53
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
+        x: 56
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea5642cb3e8382c60800000000000000
-      internalID: 7793541705929876910
+      spriteID: dd0e13b6947ac9600800000000000000
+      internalID: 476439594367312093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_41
+      name: FlappyBirdTileMap_54
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
+        x: 84
+        y: 29
+        width: 26
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9bff40025cf58d10800000000000000
-      internalID: 2127383828125186975
+      spriteID: 55c4273eefd96daf0800000000000000
+      internalID: -371936201148314539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_42
+      name: FlappyBirdTileMap_55
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
+        x: 115
+        y: 171
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3af418406f5a2d90800000000000000
-      internalID: -7121774993602184644
+      spriteID: c11f57be2427867d0800000000000000
+      internalID: -2924962326233353956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_43
+      name: FlappyBirdTileMap_56
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
+        x: 138
+        y: 168
+        width: 6
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03ca2314f8e3bed70800000000000000
-      internalID: 9073414659263081520
+      spriteID: 97b1d0161e481a730800000000000000
+      internalID: 4008631246867209081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_44
+      name: FlappyBirdTileMap_57
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
-        width: 64
-        height: 64
+        x: 115
+        y: 145
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad5ec18a4f1d6cf60800000000000000
-      internalID: 8054355832321402330
+      spriteID: 4984215addb9255b0800000000000000
+      internalID: -5381067228494804844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_45
+      name: FlappyBirdTileMap_58
       rect:
         serializedVersion: 2
-        x: 448
-        y: 192
-        width: 64
-        height: 64
+        x: 138
+        y: 156
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f1a4bd3da5398960800000000000000
-      internalID: 7604668463972655609
+      spriteID: e202bd0df787dede0800000000000000
+      internalID: -1302252226880004050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_46
+      name: FlappyBirdTileMap_59
       rect:
         serializedVersion: 2
-        x: 512
-        y: 192
-        width: 64
-        height: 64
+        x: 138
+        y: 141
+        width: 6
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c62d8d9cf4809c990800000000000000
-      internalID: -7365346576805866900
+      spriteID: eae1dd8e450412d20800000000000000
+      internalID: 3251951139366444718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_47
+      name: FlappyBirdTileMap_60
       rect:
         serializedVersion: 2
-        x: 576
-        y: 192
-        width: 64
-        height: 64
+        x: 115
+        y: 119
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a651b1777c56c04a0800000000000000
-      internalID: -6625809044397681302
+      spriteID: 341cca0ce5051cdf0800000000000000
+      internalID: -161759743718932157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_48
+      name: FlappyBirdTileMap_61
       rect:
         serializedVersion: 2
-        x: 640
-        y: 192
-        width: 64
-        height: 64
+        x: 138
+        y: 130
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b250b9f14c5c9c0800000000000000
-      internalID: -3907501461650199765
+      spriteID: e8d5f3f33a7f22900800000000000000
+      internalID: 658360776062360974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_49
+      name: FlappyBirdTileMap_62
       rect:
         serializedVersion: 2
-        x: 704
-        y: 192
-        width: 64
-        height: 64
+        x: 138
+        y: 121
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5597324d0d3749340800000000000000
-      internalID: 4869644437843835221
+      spriteID: a90c3c67cd7584ba0800000000000000
+      internalID: -6104532690503745382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_50
+      name: FlappyBirdTileMap_63
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
+        x: 138
+        y: 114
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b234a9cd49704670800000000000000
-      internalID: 8520943869987402425
+      spriteID: c0e5b82024206df40800000000000000
+      internalID: 5752788056546172428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_51
+      name: FlappyBirdTileMap_64
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
+        x: 115
+        y: 93
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e0273997696c690800000000000000
-      internalID: -7582207473722716598
+      spriteID: 15be80b3927058a40800000000000000
+      internalID: 5369706004374678353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_52
+      name: FlappyBirdTileMap_65
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
+        x: 138
+        y: 104
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 900309d08dc139100800000000000000
-      internalID: 113466129880461321
+      spriteID: 82deed23ac7a93bf0800000000000000
+      internalID: -344059409638429400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_53
+      name: FlappyBirdTileMap_66
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
+        x: 138
+        y: 95
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09371a0b29e729850800000000000000
-      internalID: 6382302790431110032
+      spriteID: 2097dfd4a83780770800000000000000
+      internalID: 8577232528178247938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_54
+      name: FlappyBirdTileMap_67
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
+        x: 115
+        y: 67
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94b80ef4f4cbed0b0800000000000000
-      internalID: -5701913029375915191
+      spriteID: a66ec520be108bd40800000000000000
+      internalID: 5600228245503796842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_55
+      name: FlappyBirdTileMap_68
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
+        x: 138
+        y: 78
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4490292d9c772ed0800000000000000
-      internalID: -2438843658756123571
+      spriteID: d13340c63a52eaa30800000000000000
+      internalID: 4228358483969585949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_56
+      name: FlappyBirdTileMap_69
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
+        x: 138
+        y: 69
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 294152e9f28d05d30800000000000000
-      internalID: 4418268933478749330
+      spriteID: fbe36e4f105d4e960800000000000000
+      internalID: 7630457873052876479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_57
+      name: FlappyBirdTileMap_70
       rect:
         serializedVersion: 2
-        x: 448
-        y: 128
-        width: 64
-        height: 64
+        x: 112
+        y: 37
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7bf09f0dfa79a1d0800000000000000
-      internalID: -3339002421412037762
+      spriteID: 8e8cbd45f57e7ea10800000000000000
+      internalID: 1938772561237887208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_58
+      name: FlappyBirdTileMap_71
       rect:
         serializedVersion: 2
-        x: 512
-        y: 128
-        width: 64
-        height: 64
+        x: 136
+        y: 39
+        width: 8
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b6a71db5e2085020800000000000000
-      internalID: 2330615992907441848
+      spriteID: d2e9a840cddd4ed00800000000000000
+      internalID: 1001168954221829677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_59
+      name: FlappyBirdTileMap_72
       rect:
         serializedVersion: 2
-        x: 576
-        y: 128
-        width: 64
-        height: 64
+        x: 112
+        y: 13
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a2168ddd31d1ca50800000000000000
-      internalID: 6539738197558432422
+      spriteID: 51fa777392baca830800000000000000
+      internalID: 4083827155630796565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_60
+      name: FlappyBirdTileMap_73
       rect:
         serializedVersion: 2
-        x: 640
-        y: 128
-        width: 64
-        height: 64
+        x: 139
+        y: 25
+        width: 5
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd2b7b4dd44fdec40800000000000000
-      internalID: 5543355331481416411
+      spriteID: 51b0f90b17ac5f7f0800000000000000
+      internalID: -579334387403912427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_61
+      name: FlappyBirdTileMap_74
       rect:
         serializedVersion: 2
-        x: 704
-        y: 128
-        width: 64
-        height: 64
+        x: 3
+        y: 9
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 649deeae8a94c6bf0800000000000000
-      internalID: -329807682860033722
+      spriteID: d155ce2a2104bc810800000000000000
+      internalID: 1786592125969519901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_62
+      name: FlappyBirdTileMap_75
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
+        x: 31
+        y: 9
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30c3a49044ee63a00800000000000000
-      internalID: 736037565102701571
+      spriteID: 5a4299939e14886d0800000000000000
+      internalID: -2988065882810800987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_63
+      name: FlappyBirdTileMap_76
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 59
+        y: 9
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e68c4d142cdc660800000000000000
-      internalID: 7407790550092901962
+      spriteID: f5a51924ac02e4a70800000000000000
+      internalID: 8813017573882944095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_64
+      name: FlappyBirdTileMap_77
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 87
+        y: 9
+        width: 17
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10b9038e063731960800000000000000
-      internalID: 7571522258589489921
+      spriteID: bdc708bbcd0589fc0800000000000000
+      internalID: -3487949002429661989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_65
+      name: FlappyBirdTileMap_78
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 137
+        y: 13
+        width: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f11939b1b8911500800000000000000
-      internalID: 365240933877879282
+      spriteID: 40a81c7bb3994b970800000000000000
+      internalID: 8769802856162232836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_66
+      name: FlappyBirdTileMap_79
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
+        x: 112
+        y: 4
+        width: 16
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf59198f007ecf950800000000000000
-      internalID: 6484311554862978555
+      spriteID: 36a38367c4fa5fcb0800000000000000
+      internalID: -4830762282349217181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platformPack_tilesheet_67
+      name: FlappyBirdTileMap_80
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 128
+        x: 131
+        y: 1
+        width: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4e15f8f5e6526d0800000000000000
-      internalID: -3015883018749221715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_68
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73552f665af0dbd80800000000000000
-      internalID: -8233407340692220617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_69
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2af8a51630365930800000000000000
-      internalID: 4131542717008771627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_70
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13adaf9ea52df4f80800000000000000
-      internalID: -8120040315211294159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_71
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34f179513d516ef80800000000000000
-      internalID: -8077744885297897661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_72
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ef9ac3233822e920800000000000000
-      internalID: 3018018900400578528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_73
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1112ef7513079dcc0800000000000000
-      internalID: -3685791462794059503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_74
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da70bd0cdf67441b0800000000000000
-      internalID: -5673278798345599059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_75
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54b046e93cd578ec0800000000000000
-      internalID: -3564777485283095739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_76
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23f2666a68ac145b0800000000000000
-      internalID: -5385800999692259534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_77
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af05782c96fdf0de0800000000000000
-      internalID: -1364626516741762822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_78
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce027866e025e81b0800000000000000
-      internalID: -5652490260500242196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_79
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20a39b03768e26ac0800000000000000
-      internalID: -3863270000433743358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_80
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d78f9ce0a63a13bd0800000000000000
-      internalID: -2652159029634533251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_81
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f715846ecf86bf3d0800000000000000
-      internalID: -3171826077147836033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_82
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f74f202270dc0c080800000000000000
-      internalID: -9169103410807245697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_83
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c15ed6231a205ce80800000000000000
-      internalID: -8159112258552732388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: platformPack_tilesheet_84
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c544811c22ac14360800000000000000
-      internalID: 7152219933858350172
+      spriteID: 782a7780b3a989c00800000000000000
+      internalID: 907644903250961031
       vertices: []
       indices: 
       edges: []

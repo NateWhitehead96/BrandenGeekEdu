@@ -27,7 +27,7 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.3
+    value: 0.229
   smoothness:
     overrideState: 1
     value: 0.2
@@ -148,7 +148,7 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 1, y: 1, z: 1, w: -0.14051513}
+    value: {x: 1, y: 1, z: 1, w: -0.023419106}
   gamma:
     overrideState: 1
     value: {x: 1, y: 1, z: 1, w: -0.11709603}
@@ -1370,71 +1370,7 @@ MonoBehaviour:
   settings:
   - {fileID: 8020535324399177132}
   - {fileID: -3372393835416487280}
-  - {fileID: 7159347736072791489}
-  - {fileID: 1595661188937679619}
   - {fileID: -5674764522303104646}
---- !u!114 &1595661188937679619
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
-  m_Name: LensDistortion
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  intensity:
-    overrideState: 1
-    value: 25
-  intensityX:
-    overrideState: 1
-    value: 1
-  intensityY:
-    overrideState: 1
-    value: 1
-  centerX:
-    overrideState: 1
-    value: 0
-  centerY:
-    overrideState: 1
-    value: 0
-  scale:
-    overrideState: 1
-    value: 1
---- !u!114 &7159347736072791489
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
-  m_Name: Grain
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  colored:
-    overrideState: 1
-    value: 1
-  intensity:
-    overrideState: 1
-    value: 0.409
-  size:
-    overrideState: 1
-    value: 1
-  lumContrib:
-    overrideState: 1
-    value: 0.777
 --- !u!114 &8020535324399177132
 MonoBehaviour:
   m_ObjectHideFlags: 3

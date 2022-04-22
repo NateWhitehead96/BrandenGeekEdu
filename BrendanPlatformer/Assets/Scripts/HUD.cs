@@ -18,13 +18,14 @@ public class HUD : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (Map == null) return;
         Map.SetActive(false); // hide map on game start
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M) && Map != null)
         {
             if (Map.activeInHierarchy) // is the map on screen
             {
