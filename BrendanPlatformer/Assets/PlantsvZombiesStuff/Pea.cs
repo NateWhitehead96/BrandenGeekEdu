@@ -21,4 +21,13 @@ public class Pea : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.GetComponent<Zombie>())
+        {
+            collision.gameObject.GetComponent<Zombie>().health--;
+            Destroy(gameObject);
+        }
+    }
 }

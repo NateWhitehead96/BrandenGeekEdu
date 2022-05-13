@@ -12,6 +12,7 @@ public class PlantsManager : MonoBehaviour
     public Tile[] tiles; // array of all of our tiles
 
     public Text sunDisplay; // text to display how much sun we have
+    public LayerMask sunlayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +46,21 @@ public class PlantsManager : MonoBehaviour
                 nearestTile.isOccupied = true; // filp the tile to be occupied
                 Cursor.visible = true; // show cursor
                 customCursor.gameObject.SetActive(false); // hide custom cursor
+            }
+        }
+
+        if(Input.GetMouseButtonDown(0) && plantToPlace == null)
+        {
+            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector3.forward, Mathf.Infinity, sunlayer);
+            if (hit.collider == null)
+            {
+                return; // if we click on nothing, stop doing the rest of the stuff
+            }
+
+            if (hit.collider.GetComponent<Sun>())
+            {
+                suns += hit.collider.GetComponent<Sun>().increaseSunAmount; // increase our suns
+                Destroy(hit.collider.gameObject); // destroy the sun
             }
         }
     }
