@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Sunflower : MonoBehaviour
 {
+    public GameObject sun;
+    public float timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,11 @@ public class Sunflower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(timer >= 5)
+        {
+            Instantiate(sun, transform.position, transform.rotation);
+            timer = 0;
+        }
+        timer += Time.deltaTime;
     }
 }

@@ -13,10 +13,12 @@ public class PlantsManager : MonoBehaviour
 
     public Text sunDisplay; // text to display how much sun we have
     public LayerMask sunlayer;
+    public GameObject GameOverCanvas;
     // Start is called before the first frame update
     void Start()
     {
         customCursor.gameObject.SetActive(false); // hide the cursor
+        GameOverCanvas.SetActive(false);
     }
 
     // Update is called once per frame
