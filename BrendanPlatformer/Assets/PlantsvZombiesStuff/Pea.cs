@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pea : MonoBehaviour
 {
     public float moveSpeed;
+    public int damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +27,7 @@ public class Pea : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<Zombie>())
         {
-            collision.gameObject.GetComponent<Zombie>().health--;
+            collision.gameObject.GetComponent<Zombie>().health -= damage;
             Destroy(gameObject);
         }
     }

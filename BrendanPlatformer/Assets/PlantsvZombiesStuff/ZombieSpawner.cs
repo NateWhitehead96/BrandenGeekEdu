@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ZombieSpawner : MonoBehaviour
 {
@@ -14,6 +15,11 @@ public class ZombieSpawner : MonoBehaviour
     public int numberOfEnemies; // how many zombie to spawn per round/wave
     public int wave; // what wave we are on
 
+    public int zombiesAlive; // a number to know how many zombies are on screen
+
+    // UI display texts
+    public Text WaveText;
+    public Text ZombiesRemaining;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +37,8 @@ public class ZombieSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        WaveText.text = "Current Wave: " + wave;
+        ZombiesRemaining.text = "Zombies Remaining: " + zombiesAlive;
         if (gameStart == true)
         {
             //float ranSpawnTime = Random.Range(0.2f, 1.5f);

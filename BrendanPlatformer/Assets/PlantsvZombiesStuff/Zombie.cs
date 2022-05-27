@@ -14,6 +14,7 @@ public class Zombie : MonoBehaviour
     void Start()
     {
         moveSpeed = maxSpeed;
+        FindObjectOfType<ZombieSpawner>().zombiesAlive++; // add to the total of zombies alive
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class Zombie : MonoBehaviour
         if(health <= 0)
         {
             // we'll also count down on enemies remaining later
+            FindObjectOfType<ZombieSpawner>().zombiesAlive--; // subtract the total of zombies alive
             Destroy(gameObject);
         }
         if(transform.position.x <= -12)

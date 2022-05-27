@@ -50,7 +50,7 @@ public class PlantsManager : MonoBehaviour
                 customCursor.gameObject.SetActive(false); // hide custom cursor
             }
         }
-
+        // collecting sun
         if(Input.GetMouseButtonDown(0) && plantToPlace == null)
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector3.forward, Mathf.Infinity, sunlayer);
@@ -63,6 +63,27 @@ public class PlantsManager : MonoBehaviour
             {
                 suns += hit.collider.GetComponent<Sun>().increaseSunAmount; // increase our suns
                 Destroy(hit.collider.gameObject); // destroy the sun
+            }
+        }
+        // Refund plant on mouse
+        if(Input.GetMouseButtonDown(1) && plantToPlace != null)
+        {
+            suns += plantToPlace.cost; // full refund of the plant
+            plantToPlace = null; // we dont have a plant on our mouse anymore
+            Cursor.visible = true;
+            customCursor.gameObject.SetActive(false);
+        }
+        // Refund plant thats already placed
+        if(Input.GetMouseButtonDown(1) && plantToPlace == null)
+        {
+            // shoot laser to find if we're clicking on a plant
+            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector3.forward, Mathf.Infinity);
+            if (hit.collider == null) return;
+            if (hit.collider.GetComponent<Plant>()) // if the hit is a plant
+            {
+                suns += hit.collider.GetComponent<Plant>().cost / 2; // refund some cost
+                hit.collider.GetComponent<Plant>().tile.isOccupied = false; // freeup the tile
+                Destroy(hit.collider.gameObject); // kill the plant
             }
         }
     }
