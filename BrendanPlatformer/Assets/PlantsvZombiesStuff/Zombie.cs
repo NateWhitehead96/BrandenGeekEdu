@@ -9,7 +9,7 @@ public class Zombie : MonoBehaviour
     public int health;
 
     public Plant plantToAttack; // this will know what plant to fight when it comes near one
-
+    public int damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +38,10 @@ public class Zombie : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.gameObject.GetComponent<Tile>())
+        {
+            collision.gameObject.GetComponent<Tile>().isOccupied = true; // when a zombie enters a tile, it becomes occupied
+        }
         if (collision.gameObject.GetComponent<Plant>())
         {
             moveSpeed = 0; // stop the zombie from slamming into the plant
@@ -48,6 +51,10 @@ public class Zombie : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        if (collision.gameObject.GetComponent<Tile>())
+        {
+            collision.gameObject.GetComponent<Tile>().isOccupied = false; // when a zombie exits a tile, it becomes unoccupied
+        }
         if (collision.gameObject.GetComponent<Plant>())
         {
             moveSpeed = maxSpeed; // again to make it move
@@ -74,7 +81,7 @@ public class Zombie : MonoBehaviour
 
     void DamagePlant()
     {
-        plantToAttack.health--;
+        plantToAttack.health -= damage;
         if(plantToAttack.health <= 0)
         {
             plantToAttack.tile.isOccupied = false; // reopen up this tile for other plants

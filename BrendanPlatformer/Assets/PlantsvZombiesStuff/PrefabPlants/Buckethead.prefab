@@ -149,6 +149,7 @@ MonoBehaviour:
   maxSpeed: 2
   health: 5
   plantToAttack: {fileID: 0}
+  damage: 1
 --- !u!61 &6050985559759885148
 BoxCollider2D:
   m_ObjectHideFlags: 0

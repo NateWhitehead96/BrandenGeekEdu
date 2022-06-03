@@ -16,7 +16,7 @@ public class ZombieSpawner : MonoBehaviour
     public int wave; // what wave we are on
 
     public int zombiesAlive; // a number to know how many zombies are on screen
-
+    public int randZombie; // for now will always be the same until we add more
     // UI display texts
     public Text WaveText;
     public Text ZombiesRemaining;
@@ -45,7 +45,19 @@ public class ZombieSpawner : MonoBehaviour
             if(timer >= 1 && numberOfEnemies > 0) // have enemies to spawn and we've hit the timer
             {
                 int randPoint = Random.Range(0, SpawnPoints.Length); // find a random point
-                int randZombie = Random.Range(0, Zombies.Length); // for now will always be the same until we add more
+                
+                if(wave < 3) // we are under 3 waves 1 or 2
+                {
+                    randZombie = Random.Range(0, 2);
+                }
+                if(wave >= 3 && wave < 7) // between wave 3 and 6 any zombie can spawn, 3, 4, 5, 6
+                {
+                    randZombie = Random.Range(0, 3);
+                }
+                if(wave >= 7) // any wave above 7 will spawn the harder zombies
+                {
+                    randZombie = Random.Range(1, Zombies.Length);
+                }
                 Instantiate(Zombies[randZombie], SpawnPoints[randPoint].position, transform.rotation);
                 timer = 0; // could be a "SpawnTime" that we randomize
                 numberOfEnemies--; // subtract an enemy
