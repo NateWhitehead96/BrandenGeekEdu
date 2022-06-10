@@ -99,6 +99,7 @@ MonoBehaviour:
   cost: 25
   health: 5
   tile: {fileID: 0}
+  buttonImage: {fileID: 21300000, guid: ae983652bf4902a40aec4c44f216732b, type: 3}
 --- !u!61 &8474915492018103442
 BoxCollider2D:
   m_ObjectHideFlags: 0

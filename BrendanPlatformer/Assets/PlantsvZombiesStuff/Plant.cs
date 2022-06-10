@@ -7,6 +7,7 @@ public class Plant : MonoBehaviour
     public int cost; // how much the plant will cost
     public int health; // how many hits from zombies it can take
     public Tile tile; // a reference to the tile this plant will occupy
+    public Sprite buttonImage; // every plant knows what the button image for it should be
     // Start is called before the first frame update
     void Start()
     {

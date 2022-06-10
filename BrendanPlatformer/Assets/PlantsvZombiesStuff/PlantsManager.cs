@@ -14,11 +14,33 @@ public class PlantsManager : MonoBehaviour
     public Text sunDisplay; // text to display how much sun we have
     public LayerMask sunlayer;
     public GameObject GameOverCanvas;
+
+    public PlantSelector selector; // our plant selector data
+    public Button[] buttons; // all of the buying plants buttons
+    public Text[] plantCosts; // all of the texts for the plant costs
     // Start is called before the first frame update
     void Start()
     {
         customCursor.gameObject.SetActive(false); // hide the cursor
         GameOverCanvas.SetActive(false);
+
+        selector = FindObjectOfType<PlantSelector>(); // link the selector
+        // first button
+        buttons[0].onClick.AddListener(delegate { BuyPlant(selector.plantsChosen[0]); }); // creating the buyplant onclick for this button
+        buttons[0].GetComponent<Image>().sprite = selector.plantsChosen[0].buttonImage; // make button image = plant
+        plantCosts[0].text = selector.plantsChosen[0].cost.ToString();
+        // second button
+        buttons[1].onClick.AddListener(delegate { BuyPlant(selector.plantsChosen[1]); });
+        buttons[1].GetComponent<Image>().sprite = selector.plantsChosen[1].buttonImage; 
+        plantCosts[1].text = selector.plantsChosen[1].cost.ToString();
+        // third button
+        buttons[2].onClick.AddListener(delegate { BuyPlant(selector.plantsChosen[2]); });
+        buttons[2].GetComponent<Image>().sprite = selector.plantsChosen[2].buttonImage;
+        plantCosts[2].text = selector.plantsChosen[2].cost.ToString();
+        // fourth button
+        buttons[3].onClick.AddListener(delegate { BuyPlant(selector.plantsChosen[3]); });
+        buttons[3].GetComponent<Image>().sprite = selector.plantsChosen[3].buttonImage;
+        plantCosts[3].text = selector.plantsChosen[3].cost.ToString();
     }
 
     // Update is called once per frame
