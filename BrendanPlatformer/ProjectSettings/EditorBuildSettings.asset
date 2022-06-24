@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8498e572a6edae8418157e205b464754
+  - enabled: 1
     path: Assets/Scenes/HubWorld.unity
     guid: cef3a4aa369b13740be254cc5a9814e4
   - enabled: 1
@@ -20,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlantsvZombie.unity
     guid: db0bde01130fb684f989b4a72ca9b868
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 16b2ede56133b8b4385b20092a604436
   m_configObjects: {}

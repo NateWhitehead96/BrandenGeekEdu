@@ -23,6 +23,9 @@ public class SoundManager : MonoBehaviour
     public AudioSource pickupSound;
     public AudioSource jumpSound;
 
+    public float sfxVolume;
+    public float musicVolume;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +35,6 @@ public class SoundManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        hurtSound.volume = sfxVolume;
     }
 }
