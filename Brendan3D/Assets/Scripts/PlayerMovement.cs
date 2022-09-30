@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
     public Vector3 moveDirection; // help us know what direction we're moving
     public float yRotation; // the y rotation
     public float rotationSpeed; // how fast we rotate
+    public Rigidbody rb; // access to our physics body
+    public float jumpForce; // how high we can jump
+    public bool jumping; // to know if we're jumping
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Move(); // movement function
         Rotate(); // rotating left and right
+        Jump(); // jump the player up
     }
 
     public void Move() // the movement for our player
@@ -37,5 +41,19 @@ public class PlayerMovement : MonoBehaviour
         Vector3 playerRotation = transform.rotation.eulerAngles; // store our current rotation
         playerRotation.y += yRotation; // set the y rotation
         transform.rotation = Quaternion.Euler(playerRotation); // apply the rotations to our rotation
+    }
+
+    public void Jump()
+    {
+        if(Input.GetKeyDown(KeyCode.Space) && jumping == false)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            jumping = true;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        jumping = false;
     }
 }
