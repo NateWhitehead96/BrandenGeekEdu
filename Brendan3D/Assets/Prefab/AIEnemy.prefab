@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 0}
   player: {fileID: 0}
-  health: 5
+  health: 2
   anim: {fileID: 5433778576412229584}
   dying: 0
 --- !u!1001 &1874127991566303809

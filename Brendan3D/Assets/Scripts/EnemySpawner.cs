@@ -8,6 +8,8 @@ public class EnemySpawner : MonoBehaviour
     public Transform[] spawnPoints;
     public int numEnemySpawn; // how many to spawn
     public int wave;
+    public int activeEnemies; // how many enemies are active
+    bool spawningEnemies; // to regulated the enemy spawner
     // Start is called before the first frame update
     void Start()
     {
@@ -22,18 +24,20 @@ public class EnemySpawner : MonoBehaviour
             int point = Random.Range(0, spawnPoints.Length); // find a random spawnpoint
             Instantiate(enemy, spawnPoints[point].position, spawnPoints[point].rotation); // spawn enemy
             numEnemySpawn--; // subtract 1 enemy from the spawn pool
-            if (numEnemySpawn == 0)
-            {
-                StartCoroutine(StartNextWave());
-            }
+            
         }
-
+        if (activeEnemies == 0 && spawningEnemies == false)
+        {
+            StartCoroutine(StartNextWave());
+        }
     }
 
     IEnumerator StartNextWave()
     {
+        spawningEnemies = true;
         yield return new WaitForSeconds(30);
         wave++;
         numEnemySpawn = wave * 5;
+        spawningEnemies = false;
     }
 }

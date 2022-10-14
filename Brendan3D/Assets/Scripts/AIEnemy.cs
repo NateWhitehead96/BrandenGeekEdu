@@ -15,6 +15,7 @@ public class AIEnemy : MonoBehaviour
     {
         player = FindObjectOfType<PlayerMovement>().transform; // force the enemy to find player on start
         agent = GetComponent<NavMeshAgent>();
+        FindObjectOfType<EnemySpawner>().activeEnemies++; // add this enemy to the active enemies
     }
 
     // Update is called once per frame
@@ -36,6 +37,8 @@ public class AIEnemy : MonoBehaviour
         agent.ResetPath(); // stop it from chasing the player
         GetComponent<CapsuleCollider>().enabled = false;
         anim.SetBool("dying", true); // play the dying animation
+        FindObjectOfType<EnemySpawner>().activeEnemies--; // subtract
+        FindObjectOfType<PlayerStats>().money += 5;
         yield return new WaitForSeconds(3);
         Destroy(gameObject); // optional, will destroy the enemy
     }
@@ -47,6 +50,11 @@ public class AIEnemy : MonoBehaviour
             print("hit");
             health -= 1; // lose health
             Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.GetComponent<PlayerStats>())
+        {
+            collision.gameObject.GetComponent<PlayerStats>().health -= 5;
         }
     }
 }
